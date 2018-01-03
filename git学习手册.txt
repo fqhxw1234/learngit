@@ -30,3 +30,12 @@ git push -u origin master    第一次推送master分支的所有内容；
 git push origin master      推送每次的最新修改；
 
 git clone git@server-name:path/repo-name.git   克隆一个远程仓库到本地仓库
+
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
+
+用git log --graph命令可以看到分支合并图。
