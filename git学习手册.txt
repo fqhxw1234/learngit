@@ -44,3 +44,6 @@ git merge --no-ff -m "注释" <name>   禁用fastforward模式进行合并分支
 	--pretty=oneline 只看行头 [git log --graph --pretty=oneline]
 	----abbrev-commit  只显示commit的ID前8位    git log --graph --pretty=oneline --abbrev-commit
 
+git stash   暂存当前的工作区
+git stash  list    查看已暂存的工作区
+git stash pop     恢复暂存的工作区
