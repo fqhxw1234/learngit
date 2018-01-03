@@ -25,6 +25,8 @@ git checkout -- file 用版本库里的版本替换工作区的版本，无论�
 
 git reset HEAD file  回退暂存区文件至工作区
 
-git remote add origin git@server-name:path/repo-name.git   关联一个远程仓库到github
+git remote add origin git@server-name:path/repo-name.git   关联一个远程仓库到服务器
 git push -u origin master    第一次推送master分支的所有内容；
 git push origin master      推送每次的最新修改；
+
+git clone git@server-name:path/repo-name.git   克隆一个远程仓库到本地仓库
