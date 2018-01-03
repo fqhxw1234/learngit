@@ -38,4 +38,9 @@ git clone git@server-name:path/repo-name.git   克隆一个远程仓库到本地
 合并某分支到当前分支：git merge <name>
 删除分支：git branch -d <name>
 
+git merge --no-ff -m "注释" <name>   禁用fastforward模式进行合并分支
+
 用git log --graph命令可以看到分支合并图。
+	--pretty=oneline 只看行头 [git log --graph --pretty=oneline]
+	----abbrev-commit  只显示commit的ID前8位    git log --graph --pretty=oneline --abbrev-commit
+
